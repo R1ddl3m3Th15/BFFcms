@@ -9,7 +9,7 @@ const PORT = 3001; // BFF port number
 app.use(cors());
 app.use(express.json());
 
-const backendBaseUrl = "http://localhost:4000"; // Your backend URL
+const backendBaseUrl = "https://cmsbackendnew.onrender.com"; // Your backend URL
 
 // Middleware to add API key to backend requests
 const addApiKey = async (req, res, next) => {
